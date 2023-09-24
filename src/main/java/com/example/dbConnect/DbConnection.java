@@ -19,7 +19,7 @@ public class DbConnection {
          */
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/dxc_loginApp", "root", "podapatti99");
+            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/dxc_loginApp", "root", "password");
         } catch (Exception e) {
             e.printStackTrace();
         }
